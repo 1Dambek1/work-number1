@@ -1,0 +1,23 @@
+[project]
+name = "algos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "arcade>=3.3.3",
+    "catboost>=1.2.10",
+    "fastapi>=0.141.1",
+    "lightgbm>=4.7.0",
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.1",
+    "pandas>=3.0.5",
+    "pydantic-settings>=2.15.0",
+    "scikit-learn>=1.9.0",
+    "sqlalchemy[aiosync,asyncio]>=2.1.0",
+    "torch>=2.14.0",
+    "torchvision>=0.29.0",
+    "tqdm>=4.70.1",
+    "uvicorn>=0.53.0",
+]
